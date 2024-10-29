@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cyberfy Learning</title>
+    <link rel="stylesheet" href="learn_cyberfy.css">
+</head>
+
+<body style="background: #03081e;">
+
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo">
+                <img style="height: 35px; margin: 0 5px;" src="cyberfygh.png" alt="">
+                <img style="height: 28px; margin: 0 5px;" src="Cyberfy GH.png" alt="">
+            </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="cyberfygh.html" class="navbar_links">
+                        <i style="margin-right: 5px;" class="fa-solid fa-house"></i> HOME
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="learn_cyber.html" class="navbar_links">
+                        <i style="margin-right: 5px;" class="fa-solid fa-graduation-cap"></i> LEARN
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="signup.html" class="navbar_links">
+                        <i style="margin-right: 5px;" class="fa-solid fa-user-group"></i> COMMUNITY
+                    </a>
+                </li>
+                <!-- <li class="navbar_item">
+                    <a href="footer" class="navbar_links">CONTACT</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!--HERO -->
+    <section id="hero">
+        <h3>
+            Your Gateway to Cybersecurity Knowledge
+        </h3>
+        <!-- <h4>
+            Practical tips and resources to protect yourself from cyber threats.
+        </h4> -->
+        <h5>
+            Learn cybersecurity at your own pace, with expert-curated resources and real-world scenarios
+        </h5>
+        <a href="learn_cyber.html">
+            <button>
+                Start Learning Now
+            </button>
+        </a>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="col">
+            <div class="about division">
+                <h3 class="footer-heading">
+                    Contact
+                </h3>
+                <p>
+                    <strong>Address:</strong> University of Energy and Natural Resources, Box 214
+                </p>
+                <p>
+                    <strong>Phone: </strong> +233257626192
+                </p>
+                <a href="mailto:eliwedamk@gmail.com">
+                    <p>
+                        <strong>Email: </strong>eliwedamk@gmail.com
+                    </p>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="vision division">
+            <h3 class="footer-heading">
+                Vision
+            </h3>
+            <p style="max-width: 250px;">
+                To leverage my growing expertise in web development, big data
+                analytics, and machine learning to create innovative solutions that
+                positively impact communities and drive technological advancements.
+            </p>
+        </div>
+
+        <div class="follow division">
+            <!-- <p style="font-size: 20px; font-family: Arial Black; transition: 0.4 ease;">
+                <strong>Social Links</strong>
+            </p> -->
+            <h3 class="footer-heading">
+                Social Links
+            </h3>
+
+            <!-- <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a> -->
+            <a href="https://tiktok.com" target="_blank">
+                <i class="fa-brands fa-tiktok"></i> Tiktok
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+        </div>
+
+        <div class="copyright">
+            <p class="copy-right">
+                &copy; 2024, El Coded &#8482;
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const menu = document.querySelector('#mobile-menu')
+        const menuLinks = document.querySelector('.navbar_menu')
+
+        menu.addEventListener('click', function () {
+            menu.classList.toggle('is-active');
+            menuLinks.classList.toggle('active');
+        })
+    </script>
+
+    
+</body>
+</html>
